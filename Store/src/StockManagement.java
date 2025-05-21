@@ -19,20 +19,7 @@ public class StockManagement {
 
     }
 
-//
-//    public static void main(String[] args) {
-//        StockManagement sm = new StockManagement();
-//        sm.addProduct("laptop", "ELECTRONIC", 10, 3000);
-//        sm.addProduct("bread", "FOOD", 10, 10);
-//        sm.addProduct("wireless mouse", "ELECTRONIC", 10, 30);
-//
-//        sm.printProducts();
-//        System.out.println("----------------------------------");
-//        sm.printProductsByCategories("ELECTRONIC");
-//        System.out.println("----------------------------------");
-//        sm.updateQuantity("laptop", 10);
-//
-//    }
+
 
     void addProduct(String name, String category, int quantity, double price) {
         Categories validatedCategory = this.validateCategory(category);
